@@ -6,7 +6,7 @@ Parameter check for specified strcuture.
 
 ```javascript
 var async = require('async');
-var paramsCheck = require('params').asyncCheck;
+var paramsCheck = require('param-opts').asyncCheck;
 
 // Specified strcuture
 var struct = {
@@ -77,7 +77,7 @@ async.waterfall([
 
 ```javascript
 var co = require('co');
-var paramsCheck = require('params').asyncCheck;
+var paramsCheck = require('param-opts').asyncCheck;
 
 // Specified strcuture
 var struct = {
@@ -134,7 +134,7 @@ co(function* () {
 
 }).then(function() {
   console.log('over');
-}, function (err, params) {
+}, function (err) {
   console.error(err);
 });
 

@@ -1,14 +1,17 @@
 {
-  "name": "params",
+  "name": "param-opts",
   "version": "0.1.0",
-  "description": "",
+  "description": "Parameter check for specified strcuture.",
   "main": "lib/params.js",
   "scripts": {
     "test": "mocha tests/"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Lellansin/node-params.git"
+    "url": "git+https://github.com/Lellansin/node-params.git"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
   },
   "keywords": [
     "univ",
@@ -23,7 +26,17 @@
   "homepage": "https://github.com/Lellansin/node-params",
   "devDependencies": {
     "async": "^1.5.0",
+    "benchmark": "^1.0.0",
     "co": "^4.6.0",
     "should": "^7.1.1"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "benchmark": "^1.0.0",
+    "async": "^1.5.0",
+    "should": "^7.1.1",
+    "co": "^4.6.0"
   }
 }
