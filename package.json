@@ -1,0 +1,29 @@
+{
+  "name": "params",
+  "version": "0.1.0",
+  "description": "",
+  "main": "lib/params.js",
+  "scripts": {
+    "test": "mocha tests/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Lellansin/node-params.git"
+  },
+  "keywords": [
+    "univ",
+    "verify",
+    "parameter"
+  ],
+  "author": "lellansin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Lellansin/node-params/issues"
+  },
+  "homepage": "https://github.com/Lellansin/node-params",
+  "devDependencies": {
+    "async": "^1.5.0",
+    "co": "^4.6.0",
+    "should": "^7.1.1"
+  }
+}
